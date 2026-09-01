@@ -16,8 +16,6 @@ class department(models.Models):
     id = models.CharField()
 
 
-<<<<<<< HEAD
-=======
 class Newdepartment(models.Models):   
     section = models.CharField()
     department = models.CharField()
@@ -25,7 +23,6 @@ class Newdepartment(models.Models):
 
 
 
->>>>>>> dev
 
 
 
