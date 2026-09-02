@@ -23,6 +23,20 @@ class Newdepartment(models.Models):
 
 
 
+class Employees(models.Models):   
+    section = models.CharField()
+    department = models.CharField()
+    id = models.CharField()
+
+
+
+class Users(models.Models):   
+    section = models.CharField()
+    department = models.CharField()
+    id = models.CharField()
+
+
+
 
 
 
